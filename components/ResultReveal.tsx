@@ -59,7 +59,9 @@ export function ResultReveal({ archetype, cat, shareUrl }: ResultRevealProps) {
           <h2 className="font-display text-[2.25rem] font-bold leading-none text-ink-deep text-balance">
             {cat.name}
           </h2>
-          <p className="eyebrow mt-3 text-ink-soft">{originLabel}</p>
+          <p className="eyebrow mt-3 text-ink-soft">
+            {originLabel} · No. {cat.number} / 89
+          </p>
         </div>
       </div>
 

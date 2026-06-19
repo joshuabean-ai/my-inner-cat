@@ -7,10 +7,10 @@ export function Hero() {
     <div className="flex flex-col items-center text-center animate-fade-up">
       <CardFan />
 
-      <h1 className="mt-10 font-display text-hero font-bold text-ink-deep text-balance">
+      <h1 className="mt-10 font-display text-[2.75rem] font-bold leading-[1.05] text-ink-deep text-balance sm:text-hero">
         My Inner Cat
       </h1>
-      <p className="mt-3 font-display text-xl italic text-ink-soft sm:text-2xl">
+      <p className="mt-3 font-display text-lg italic text-ink-soft sm:text-2xl">
         Which cat lives in you?
       </p>
 
@@ -18,12 +18,23 @@ export function Hero() {
         <BeginButton />
       </div>
 
-      <Link
-        href="/cats"
-        className="mt-5 rounded font-body text-sm text-ink-soft underline decoration-dove underline-offset-4 transition-colors hover:text-ink-deep hover:decoration-lavender focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lavender"
-      >
-        or browse all 89 cats
-      </Link>
+      <div className="mt-5 flex items-center gap-3 font-body text-sm">
+        <Link
+          href="/cats"
+          className="rounded text-ink-soft underline decoration-dove underline-offset-4 transition-colors hover:text-ink-deep hover:decoration-lavender focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lavender"
+        >
+          Browse all 89 cats
+        </Link>
+        <span className="text-dove" aria-hidden="true">
+          ·
+        </span>
+        <Link
+          href="/about"
+          className="rounded text-ink-soft underline decoration-dove underline-offset-4 transition-colors hover:text-ink-deep hover:decoration-lavender focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lavender"
+        >
+          About
+        </Link>
+      </div>
 
       <p className="eyebrow mt-8 text-ink-whisper">
         A watercolor quiz by Georgia

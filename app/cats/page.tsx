@@ -14,7 +14,7 @@ export default function CatsPage() {
   return (
     <main className="relative flex min-h-screen flex-col">
       <WatercolorBloom />
-      <Masthead right={`${cats.length} cats`} />
+      <Masthead />
       <div className="flex flex-1 flex-col items-center px-6 pb-16 pt-4">
         <header className="mb-9 text-center">
           <p className="eyebrow text-ink-whisper">The collection</p>

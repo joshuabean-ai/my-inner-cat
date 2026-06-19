@@ -74,7 +74,7 @@ export default async function ResultPage({
   return (
     <main className="relative flex min-h-screen flex-col">
       <WatercolorBloom className="opacity-60" tint={tint} />
-      <Masthead right={`No. ${cat.number} / 89`} />
+      <Masthead />
       <div className="flex flex-1 items-start justify-center px-6 pb-16 pt-4">
         <ResultReveal archetype={archetype} cat={cat} shareUrl={shareUrl} />
       </div>

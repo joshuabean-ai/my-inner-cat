@@ -1,31 +1,17 @@
-import Link from "next/link";
+import { PawMark } from "./PawMark";
 
-const links = [
-  { href: "/quiz", label: "Take the quiz" },
-  { href: "/cats", label: "All cats" },
-  { href: "/about", label: "About" },
-];
-
+/**
+ * A calm brand sign-off — not navigation (that lives in the masthead). One
+ * intentional mark to close the page.
+ */
 export function Footer() {
   return (
-    <footer className="mt-auto flex flex-col items-center gap-3 py-8 font-body text-sm text-ink-whisper">
-      <nav className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2">
-        {links.map((l) => (
-          <Link
-            key={l.href}
-            href={l.href}
-            className="rounded transition-colors hover:text-ink-soft focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lavender"
-          >
-            {l.label}
-          </Link>
-        ))}
-      </nav>
-      <Link
-        href="/"
-        className="rounded transition-colors hover:text-ink-soft focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lavender"
-      >
-        myinnercat.com
-      </Link>
+    <footer className="mt-auto flex flex-col items-center gap-1.5 py-10 text-center">
+      <div className="flex items-center gap-2 text-ink-deep">
+        <PawMark className="h-4 w-4 text-lavender" />
+        <span className="font-display text-base font-semibold">My Inner Cat</span>
+      </div>
+      <p className="eyebrow text-ink-whisper">A watercolor quiz by Georgia</p>
     </footer>
   );
 }
