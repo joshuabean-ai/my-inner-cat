@@ -1,8 +1,13 @@
 /**
- * Signature ambient element. Several overlapping organic blobs filled with
- * translucent palette gradients, blurred into a soft watercolor wash that
- * drifts very slowly. Purely decorative; hidden from assistive tech and
- * frozen under prefers-reduced-motion (handled globally in globals.css).
+ * Signature ambient element: a soft watercolor wash that drifts very slowly
+ * behind the hero and result reveal. Purely decorative; hidden from assistive
+ * tech and frozen under prefers-reduced-motion (handled globally in globals.css).
+ *
+ * Built from layered CSS radial gradients (not an SVG blur filter): the soft
+ * transparent falloff gives the wash for free, composites cleanly, and avoids
+ * the iOS Safari repaint glitches that large animated `feGaussianBlur` layers
+ * cause — which could leave the header blank on scroll. `fixed` keeps it pinned
+ * to the viewport so the wash stays consistent on long result pages.
  *
  * `tint` (an rgba string) lets the result page wash the bloom toward the
  * matched cat's rarity color, so each result feels subtly different.
@@ -14,42 +19,27 @@ export function WatercolorBloom({
   className?: string;
   tint?: string;
 }) {
+  const layers = [
+    "radial-gradient(38% 34% at 26% 28%, #C8B6E2 0%, rgba(200,182,226,0) 70%)",
+    "radial-gradient(36% 36% at 72% 42%, #B8D4E3 0%, rgba(184,212,227,0) 70%)",
+    "radial-gradient(46% 32% at 46% 76%, #B5DDC4 0%, rgba(181,221,196,0) 70%)",
+  ];
+  if (tint) {
+    layers.unshift(`radial-gradient(50% 44% at 56% 34%, ${tint} 0%, transparent 72%)`);
+  }
+
   return (
     <div
       aria-hidden="true"
-      className={`pointer-events-none absolute inset-0 -z-10 overflow-hidden ${className}`}
+      className={`pointer-events-none fixed inset-0 -z-10 overflow-hidden ${className}`}
     >
-      <svg
-        className="h-full w-full opacity-50 motion-safe:animate-drift"
-        viewBox="0 0 800 600"
-        preserveAspectRatio="xMidYMid slice"
-      >
-        <defs>
-          <filter id="watercolor-blur" x="-30%" y="-30%" width="160%" height="160%">
-            <feGaussianBlur stdDeviation="55" />
-          </filter>
-          <radialGradient id="bloom-lavender" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stopColor="#C8B6E2" stopOpacity="0.9" />
-            <stop offset="100%" stopColor="#C8B6E2" stopOpacity="0.15" />
-          </radialGradient>
-          <radialGradient id="bloom-sky" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stopColor="#B8D4E3" stopOpacity="0.9" />
-            <stop offset="100%" stopColor="#B8D4E3" stopOpacity="0.15" />
-          </radialGradient>
-          <radialGradient id="bloom-mint" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stopColor="#B5DDC4" stopOpacity="0.9" />
-            <stop offset="100%" stopColor="#B5DDC4" stopOpacity="0.15" />
-          </radialGradient>
-        </defs>
-        <g filter="url(#watercolor-blur)">
-          <ellipse cx="220" cy="220" rx="200" ry="160" fill="url(#bloom-lavender)" />
-          <ellipse cx="560" cy="320" rx="190" ry="180" fill="url(#bloom-sky)" />
-          <ellipse cx="400" cy="450" rx="230" ry="150" fill="url(#bloom-mint)" />
-          {tint ? (
-            <ellipse cx="430" cy="270" rx="260" ry="200" fill={tint} />
-          ) : null}
-        </g>
-      </svg>
+      <div
+        className="absolute inset-[-12%] opacity-70 motion-safe:animate-drift"
+        style={{
+          backgroundImage: layers.join(", "),
+          backgroundRepeat: "no-repeat",
+        }}
+      />
     </div>
   );
 }
