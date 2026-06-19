@@ -43,13 +43,14 @@ export default function AboutPage() {
         <header className="text-center">
           <p className="eyebrow text-ink-whisper">About</p>
           <h1 className="mt-1 font-display text-page-title font-bold text-ink-deep text-balance">
-            A small, soft corner of the internet
+            An artistic, feline personality test
           </h1>
           <p className="mt-4 font-body text-lg leading-relaxed text-ink-soft text-pretty">
-            My Inner Cat is a watercolor personality quiz. Answer ten short
+            My Inner Cat is a cat-based personality quiz. Answer ten short
             questions and you&apos;ll be matched to one of {cats.length} cats —
-            from cozy housecats to rare wild species — each painted by hand and
-            sorted into one of {archetypes.length} personality archetypes.
+            from cozy housecats to rare wild species — each displayed as a
+            watercolor painting and sorted into one of {archetypes.length}{" "}
+            personality types.
           </p>
         </header>
 
@@ -95,9 +96,9 @@ export default function AboutPage() {
           </h2>
           <p className="mt-4 font-body text-lg leading-relaxed text-ink-soft text-pretty">
             My Inner Cat began as a project to make together — a love of cats, a
-            love of painting, and a quiet wish to build something wholesome and
-            unhurried. There&apos;s nothing to sign up for and nothing to buy. We
-            just hope it makes your day a little softer.
+            love of art, and a fun way to learn a little about yourself! There&apos;s
+            nothing to sign up for and nothing to buy. We just hope it makes your
+            day a little cuddlier.
           </p>
         </section>
 
