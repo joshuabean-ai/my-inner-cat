@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { BeginButton } from "./BeginButton";
 import { CardFan } from "./CardFan";
 
@@ -16,6 +17,13 @@ export function Hero() {
       <div className="mt-9">
         <BeginButton />
       </div>
+
+      <Link
+        href="/cats"
+        className="mt-5 rounded font-body text-sm text-ink-soft underline decoration-dove underline-offset-4 transition-colors hover:text-ink-deep hover:decoration-lavender focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lavender"
+      >
+        or browse all 89 cats
+      </Link>
 
       <p className="eyebrow mt-8 text-ink-whisper">
         A watercolor quiz by Georgia
