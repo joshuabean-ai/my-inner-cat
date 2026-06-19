@@ -16,3 +16,6 @@ next-env.d.ts
 # One-off screenshots shared during development
 001.png
 .env*
+
+# Throwaway localStorage seeders used during testing
+public/__seed*.html
