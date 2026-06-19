@@ -7,6 +7,7 @@ import type { Answer, Question, UserAnswer } from "@/lib/types";
 import { questions as allQuestions, cats, toSlug } from "@/lib/data";
 import { selectQuestions } from "@/lib/selection";
 import { matchArchetype, selectVariant } from "@/lib/matching";
+import { flagPull } from "@/lib/collection";
 import { ProgressBar } from "./ui/ProgressBar";
 import { QuestionCard } from "./QuestionCard";
 
@@ -30,6 +31,7 @@ export function QuizFlow() {
     const archetypeId = matchArchetype(finalAnswers);
     const cat = selectVariant(archetypeId, cats);
     track("quiz_completed", { archetype: archetypeId, cat: cat.id });
+    flagPull(cat.id); // mark as drawn so the result page records it as collected
     router.push(`/result/${toSlug(archetypeId)}/${toSlug(cat.id)}`);
   }
 

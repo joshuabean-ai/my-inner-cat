@@ -4,6 +4,7 @@ import type { Archetype, Cat } from "@/lib/types";
 import { CatPortrait } from "./CatPortrait";
 import { RaritySeal } from "./RaritySeal";
 import { RarityScale } from "./RarityScale";
+import { RecordPull } from "./RecordPull";
 import { ShareButton } from "./ShareButton";
 import { RetakeButton } from "./RetakeButton";
 
@@ -61,6 +62,8 @@ export function ResultReveal({ archetype, cat, shareUrl }: ResultRevealProps) {
           <p className="eyebrow mt-3 text-ink-soft">{originLabel}</p>
         </div>
       </div>
+
+      <RecordPull catId={cat.id} />
 
       {/* Teach the rarity system with this cat's real odds. */}
       <div className="mt-7">
