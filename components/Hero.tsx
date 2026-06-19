@@ -1,11 +1,16 @@
 import Link from "next/link";
+import { cats } from "@/lib/data";
 import { BeginButton } from "./BeginButton";
 import { CardFan } from "./CardFan";
+
+// Slim pool passed to the (client) fan — only what it renders, so the full
+// cats.json (blurbs/trivia) never ships to the browser.
+const fanPool = cats.map((c) => ({ id: c.id, image: c.image, rarity: c.rarity }));
 
 export function Hero() {
   return (
     <div className="flex flex-col items-center text-center animate-fade-up">
-      <CardFan />
+      <CardFan pool={fanPool} />
 
       <h1 className="mt-10 font-display text-[2.75rem] font-bold leading-[1.05] text-ink-deep text-balance sm:text-hero">
         My Inner Cat

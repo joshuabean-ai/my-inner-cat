@@ -59,6 +59,10 @@ const config: Config = {
           "0%": { opacity: "0", transform: "translateY(8px)" },
           "100%": { opacity: "1", transform: "translateY(0)" },
         },
+        "fade-in": {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
         "bloom-in": {
           "0%": { opacity: "0", transform: "scale(0.92)", filter: "blur(8px)" },
           "60%": { filter: "blur(0)" },
@@ -78,6 +82,7 @@ const config: Config = {
         drift: "drift 75s ease-in-out infinite",
         "scale-in": "scale-in 600ms ease-out both",
         "fade-up": "fade-up 400ms ease-out both",
+        "fade-in": "fade-in 600ms ease-out both",
         "bloom-in": "bloom-in 900ms ease-out both",
         stamp: "stamp 600ms cubic-bezier(0.2, 1.4, 0.4, 1) both",
         shimmer: "shimmer 6s linear infinite",
