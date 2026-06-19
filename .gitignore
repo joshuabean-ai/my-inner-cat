@@ -1,0 +1,17 @@
+/node_modules
+/.next
+/out
+/build
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+.DS_Store
+.env*.local
+
+# Original high-res illustrations (~223 MB). Source for `npm run data` only;
+# kept out of git to keep the repo lean. The optimized WebP that actually ships
+# lives in public/cats/ and IS committed. Keep a separate backup of these.
+/images
+
+# One-off screenshots shared during development
+001.png

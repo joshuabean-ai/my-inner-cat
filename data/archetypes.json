@@ -1,0 +1,124 @@
+{
+  "archetypes": [
+    {
+      "id": "cozy_giant",
+      "name": "The Cozy Giant",
+      "description": "You're the friend people text when something hard happens. You don't panic, you don't perform, and you don't run out of patience. Big rooms tire you out, but small circles of people you love can hold you all day. People put themselves back together faster around you, and they usually don't realize you're the reason.",
+      "tagline": "The friend you text first when things go wrong."
+    },
+    {
+      "id": "sprint_star",
+      "name": "The Sprint Star",
+      "description": "You think with your body. Sitting still in a meeting feels harder than running five miles, and if you don't move enough during the day, you sleep badly at night. You're not hyper. You just need real work for your nervous system to do. You'd rather be tired than bored.",
+      "tagline": "Would rather be tired than bored."
+    },
+    {
+      "id": "quiet_mystic",
+      "name": "The Quiet Mystic",
+      "description": "You watch a room before you join it. Sometimes people read that as shy or aloof, but it isn't either. You're slow to spend your warmth, and the people who eventually get it know they earned it. You give your full attention rarely and on purpose.",
+      "tagline": "Watches first. Spends warmth carefully."
+    },
+    {
+      "id": "crown_bearer",
+      "name": "The Crown Bearer",
+      "description": "You don't have to raise your voice to be heard. You take your time answering questions, you don't waste words, and you've never been comfortable performing for attention you didn't ask for. People mistake your calm for stoicism. It's actually self-trust.",
+      "tagline": "Doesn't need to raise a voice to be heard."
+    },
+    {
+      "id": "curious_explorer",
+      "name": "The Curious Explorer",
+      "description": "You've changed routes home from work just to see a different street. New restaurants, new cities, hobbies you'll abandon in a year. You'd rather try something and learn it wasn't for you than wonder. The list of things you've been into and moved on from is long, and you don't regret a single one.",
+      "tagline": "Allergic to boredom. Loyal to surprise."
+    },
+    {
+      "id": "soft_hearted_charmer",
+      "name": "The Soft-Hearted Charmer",
+      "description": "You remember everyone's birthday. Not because you're trying to, but because little details about the people you love stick to you the same way song lyrics do. You can hold a grudge if pushed, but you'd really rather not, and forgiving people usually feels like a relief. People feel safe around you. They're not wrong to.",
+      "tagline": "Remembers every birthday. Forgives most things."
+    },
+    {
+      "id": "chatty_charmer",
+      "name": "The Chatty Charmer",
+      "description": "You have opinions and you share them. Long phone calls, dinner table monologues, voice memos that ran longer than the conversation that prompted them. This is just how your brain processes the world. Quiet people sometimes find you exhausting, and you can live with that. The people who get you don't want anyone else.",
+      "tagline": "Has opinions. Shares them. Lives loud."
+    },
+    {
+      "id": "steady_companion",
+      "name": "The Steady Companion",
+      "description": "You're who people call when they need a ride to the airport. Not flashy, not loud, not particularly mysterious. You're also not interested in being any of those things. You show up, you do what you said you'd do, and you make other people's lives easier without making a thing of it. The world runs on people like you.",
+      "tagline": "Shows up. Does the thing. Doesn't make a thing of it."
+    },
+    {
+      "id": "trickster",
+      "name": "The Trickster",
+      "description": "You see the loophole. You found the secret level. You're the one who got everyone laughing in a meeting they were dreading, and also the one who took apart the household smoke detector because you wanted to know how it worked. People underestimate how smart you are because you'd rather be funny than impressive.",
+      "tagline": "Sees the loophole. Found the secret level."
+    },
+    {
+      "id": "hidden_one",
+      "name": "The Hidden One",
+      "description": "You're a private person and you've stopped feeling weird about it. Your inner life is rich and most of it stays inner. You like nature, long walks alone, and books you don't talk about with anyone. The few people who know the real you are inside a circle most people never enter.",
+      "tagline": "Inner life: rich. Outer life: theirs."
+    },
+    {
+      "id": "adaptive_soul",
+      "name": "The Adaptive Soul",
+      "description": "You find your footing in unexpected places. Other people would call your hobbies, jobs, and friend groups eclectic. You'd call them honest. You don't fit one mold, and trying to over the years just made you tired. Now you do what works for you, and you're more interesting for it.",
+      "tagline": "Doesn't fit one mold. Stopped trying to."
+    },
+    {
+      "id": "quirky_individualist",
+      "name": "The Quirky Individualist",
+      "description": "You've never been able to suppress what makes you weird, and at some point you stopped trying. Your fashion sense is yours alone. Your taste in music makes playlists hard. Your laugh is recognizable from across a room. People remember you because there's no one to confuse you with.",
+      "tagline": "Recognizable from across a room."
+    },
+    {
+      "id": "sun_worshipper",
+      "name": "The Sun Worshipper",
+      "description": "You find the warmest patch in any room within thirty seconds of arriving. Good food, good naps, sun through a window in winter, the right blanket on the right couch. These are not small things to you. People who don't slow down probably miss most of what's worth being alive for, and you decided a while ago not to be one of them.",
+      "tagline": "Finds the warmest patch within thirty seconds."
+    },
+    {
+      "id": "loyal_guardian",
+      "name": "The Loyal Guardian",
+      "description": "You will go to war for the people you love and you do not need them to ask. You watch carefully, you judge intent carefully, and you remember who was kind to your people and who wasn't. People sometimes mistake your reserve for coldness. It isn't. You're sizing them up, and you make up your mind once.",
+      "tagline": "Goes to war for the people they love. Doesn't need to be asked."
+    },
+    {
+      "id": "dreamer",
+      "name": "The Dreamer",
+      "description": "You spend a lot of your day in places no one else can see. You write things in your head that don't quite make it to paper. You notice the way light hits a building, the unsaid thing in a conversation, the song playing under everything else. The people who love you have learned not to interrupt the staring-out-the-window phases. That's where your best work happens.",
+      "tagline": "Spends part of every day somewhere no one else can see."
+    },
+    {
+      "id": "old_soul",
+      "name": "The Old Soul",
+      "description": "You've been quiet at parties since you were ten. Friends bring you their hardest questions because you don't rush to answer them and you don't pretend to know things you don't. You like long conversations, slow mornings, and the kind of books that take a year to finish. You're rarely in a hurry. People who spend time around you tend to slow down too.",
+      "tagline": "Slow to answer. Worth waiting for."
+    },
+    {
+      "id": "joyful_optimist",
+      "name": "The Joyful Optimist",
+      "description": "You're not naive. You decided a while back that you'd rather find the bright thread in a thing than the dark one. People are surprised by how much of life genuinely makes you happy. Small dogs, weird clouds, songs that hit right, friends who answer the phone. Your good mood is the kind that catches, and it doesn't take a lot to maintain.",
+      "tagline": "Not naive. Just choosing well."
+    },
+    {
+      "id": "night_owl",
+      "name": "The Night Owl",
+      "description": "The world makes more sense to you after dark. You do your best thinking past 11 p.m. Your friends know not to text you before noon unless something is on fire. You like quiet streets, lamplight, the way music sounds louder in headphones at night. Mornings happen to you. Evenings are yours.",
+      "tagline": "Mornings happen. Evenings are theirs."
+    },
+    {
+      "id": "free_spirit",
+      "name": "The Free Spirit",
+      "description": "You travel light. Not just literally. Your needs are simple, and your contentment doesn't depend on much. You don't have to be in a relationship, you don't have to live in the right city, you don't have to be doing the impressive thing. The freedom you have is the freedom you built by wanting less than other people want. It looks like luck. It isn't.",
+      "tagline": "Travels light. Wants less. Has more."
+    },
+    {
+      "id": "romantic",
+      "name": "The Romantic",
+      "description": "You love hard and you don't dilute it. The people you've loved have always known they were loved. You remember anniversaries, you write the long card, you cry at the good moments because the good moments deserve it. Some people find this overwhelming. Other people would never want to be loved any other way.",
+      "tagline": "Loves hard. Doesn't dilute it."
+    }
+  ]
+}

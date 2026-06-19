@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cream: #f8f4ed;
+  --paper: #fdfaf3;
+  --lavender: #c8b6e2;
+  --sky: #b8d4e3;
+  --mint: #b5ddc4;
+  --dove: #c9c6c3;
+  --ink-deep: #3a3a4a;
+  --ink-soft: #6b6b7a;
+  --ink-whisper: #9a9aa8;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background-color: var(--cream);
+    /* Faint watercolor-paper grain so large fields never read as flat color. */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+    color: var(--ink-deep);
+    font-family: var(--font-geist), system-ui, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 640px) {
+    body {
+      font-size: 16px;
+    }
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-fraunces), Georgia, serif;
+    font-weight: 600;
+    color: var(--ink-deep);
+  }
+
+  /* Visible, soft focus ring on every focusable element */
+  :focus-visible {
+    outline: 2px solid var(--lavender);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+
+  /* Field-guide annotation label: spaced small-caps in the body face. */
+  .eyebrow {
+    font-family: var(--font-geist), system-ui, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-size: 0.72rem;
+    line-height: 1.4;
+  }
+
+  /* Iridescent foil for the Legendary tier — the one warm note in the palette. */
+  .foil-surface {
+    background-image: linear-gradient(
+      110deg,
+      #c9a24b 0%,
+      #ecdca8 16%,
+      #c8b6e2 36%,
+      #b8d4e3 54%,
+      #b5ddc4 70%,
+      #ecdca8 86%,
+      #c9a24b 100%
+    );
+    background-size: 200% 100%;
+  }
+  .foil-text {
+    background-image: linear-gradient(
+      110deg,
+      #b07d1f 0%,
+      #d9bf72 22%,
+      #8c74b8 46%,
+      #6f9fb3 64%,
+      #d9bf72 84%,
+      #b07d1f 100%
+    );
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}
+
+/* Honor reduced-motion across all animation utilities */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

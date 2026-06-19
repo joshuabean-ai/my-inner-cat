@@ -1,0 +1,1236 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "title": "The party arrival",
+      "setup": "You walk into a friend's party. Twenty people are already there and the room is loud.",
+      "answers": [
+        {
+          "id": "q1a",
+          "text": "Scan for someone you already know, post up near them, stay there.",
+          "tags": [
+            "cozy_giant",
+            "quiet_mystic",
+            "soft_hearted_charmer"
+          ]
+        },
+        {
+          "id": "q1b",
+          "text": "Find the friend who invited you, get the lay of the land, ease in.",
+          "tags": [
+            "steady_companion",
+            "old_soul",
+            "cozy_giant"
+          ]
+        },
+        {
+          "id": "q1c",
+          "text": "Make a slow lap, see who looks interesting, pick a conversation.",
+          "tags": [
+            "curious_explorer",
+            "crown_bearer",
+            "chatty_charmer"
+          ]
+        },
+        {
+          "id": "q1d",
+          "text": "Head straight for the snack table.",
+          "tags": [
+            "sun_worshipper",
+            "trickster",
+            "free_spirit",
+            "adaptive_soul",
+            "sprint_star"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "title": "The wide-open Saturday",
+      "setup": "Nothing on the calendar. By 10 a.m., where are you?",
+      "answers": [
+        {
+          "id": "q2a",
+          "text": "Still in bed with a book, coffee on the nightstand.",
+          "tags": [
+            "quiet_mystic",
+            "old_soul",
+            "sun_worshipper",
+            "dreamer",
+            "night_owl"
+          ]
+        },
+        {
+          "id": "q2b",
+          "text": "Already out walking, running, or doing something with your body.",
+          "tags": [
+            "sprint_star",
+            "curious_explorer",
+            "joyful_optimist"
+          ]
+        },
+        {
+          "id": "q2c",
+          "text": "At your favorite spot getting breakfast and people-watching.",
+          "tags": [
+            "sun_worshipper",
+            "chatty_charmer",
+            "steady_companion"
+          ]
+        },
+        {
+          "id": "q2d",
+          "text": "Deep into a project that's been on your mind all week.",
+          "tags": [
+            "loyal_guardian",
+            "old_soul",
+            "adaptive_soul",
+            "crown_bearer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "title": "The unexpected compliment",
+      "setup": "A stranger pays you a real compliment in line at the store.",
+      "answers": [
+        {
+          "id": "q3a",
+          "text": "You laugh, thank them warmly, think about it the rest of the day.",
+          "tags": [
+            "soft_hearted_charmer",
+            "romantic",
+            "joyful_optimist"
+          ]
+        },
+        {
+          "id": "q3b",
+          "text": "You say thanks, nod, move on. Nice, but you don't need it to land.",
+          "tags": [
+            "crown_bearer",
+            "steady_companion",
+            "free_spirit",
+            "old_soul"
+          ]
+        },
+        {
+          "id": "q3c",
+          "text": "You compliment them right back. You might be friends by checkout.",
+          "tags": [
+            "chatty_charmer",
+            "joyful_optimist",
+            "sun_worshipper"
+          ]
+        },
+        {
+          "id": "q3d",
+          "text": "You feel a little exposed and your thank-you comes out quieter than you meant.",
+          "tags": [
+            "hidden_one",
+            "quiet_mystic",
+            "dreamer",
+            "soft_hearted_charmer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "title": "The phone call",
+      "setup": "Your phone rings. A friend. No warning, no text first.",
+      "answers": [
+        {
+          "id": "q4a",
+          "text": "You pick up immediately. You love a long call.",
+          "tags": [
+            "chatty_charmer",
+            "soft_hearted_charmer",
+            "romantic"
+          ]
+        },
+        {
+          "id": "q4b",
+          "text": "You answer. You'd rather they'd texted, but they wouldn't call without a reason.",
+          "tags": [
+            "loyal_guardian",
+            "steady_companion",
+            "old_soul"
+          ]
+        },
+        {
+          "id": "q4c",
+          "text": "You let it ring. You'll get back to them in a minute.",
+          "tags": [
+            "hidden_one",
+            "free_spirit",
+            "quirky_individualist",
+            "trickster",
+            "night_owl"
+          ]
+        },
+        {
+          "id": "q4d",
+          "text": "You answer and put them on speaker while you keep doing what you were doing.",
+          "tags": [
+            "adaptive_soul",
+            "trickster",
+            "curious_explorer",
+            "sprint_star"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "title": "The disagreement",
+      "setup": "A friend says something at dinner that you disagree with, fairly strongly.",
+      "answers": [
+        {
+          "id": "q5a",
+          "text": "You push back directly, in the moment. Honesty matters between friends.",
+          "tags": [
+            "crown_bearer",
+            "loyal_guardian",
+            "sprint_star"
+          ]
+        },
+        {
+          "id": "q5b",
+          "text": "You let it pass but bring it up later when the table isn't watching.",
+          "tags": [
+            "quiet_mystic",
+            "soft_hearted_charmer",
+            "old_soul"
+          ]
+        },
+        {
+          "id": "q5c",
+          "text": "You ask them a question that lets them rethink it themselves.",
+          "tags": [
+            "old_soul",
+            "dreamer",
+            "crown_bearer",
+            "trickster",
+            "quirky_individualist"
+          ]
+        },
+        {
+          "id": "q5d",
+          "text": "You note it and let it go. Not worth a fight tonight.",
+          "tags": [
+            "free_spirit",
+            "sun_worshipper",
+            "steady_companion",
+            "adaptive_soul"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "title": "The bedtime setup",
+      "setup": "What does your ideal sleep environment look like?",
+      "answers": [
+        {
+          "id": "q6a",
+          "text": "Heavy blanket, cool room, blackout curtains, full dark.",
+          "tags": [
+            "hidden_one",
+            "night_owl",
+            "quiet_mystic",
+            "old_soul"
+          ]
+        },
+        {
+          "id": "q6b",
+          "text": "Window cracked, soft sheets, the sound of rain or a fan.",
+          "tags": [
+            "dreamer",
+            "sun_worshipper",
+            "cozy_giant"
+          ]
+        },
+        {
+          "id": "q6c",
+          "text": "A pile of pillows, your favorite person nearby, lamps on low.",
+          "tags": [
+            "soft_hearted_charmer",
+            "romantic",
+            "cozy_giant",
+            "night_owl"
+          ]
+        },
+        {
+          "id": "q6d",
+          "text": "Honestly, you'll fall asleep anywhere. Couch, floor, mid-sentence.",
+          "tags": [
+            "adaptive_soul",
+            "free_spirit",
+            "trickster"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "title": "The unexpected free hour",
+      "setup": "A plan you had today falls through and you've got an unexpected free hour.",
+      "answers": [
+        {
+          "id": "q7a",
+          "text": "Go for a walk. Fresh air first, decide what's next after.",
+          "tags": [
+            "curious_explorer",
+            "sprint_star",
+            "free_spirit",
+            "dreamer"
+          ]
+        },
+        {
+          "id": "q7b",
+          "text": "Sit with a snack or drink and look out a window for a while.",
+          "tags": [
+            "dreamer",
+            "sun_worshipper",
+            "old_soul",
+            "quiet_mystic"
+          ]
+        },
+        {
+          "id": "q7c",
+          "text": "Squeeze in something you've been meaning to do.",
+          "tags": [
+            "loyal_guardian",
+            "steady_companion",
+            "crown_bearer"
+          ]
+        },
+        {
+          "id": "q7d",
+          "text": "Reach out to a friend or someone in your family.",
+          "tags": [
+            "chatty_charmer",
+            "soft_hearted_charmer",
+            "romantic",
+            "joyful_optimist"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "title": "The where-to-eat pick",
+      "setup": "You're with a group trying to figure out where to eat. Everyone looks at you.",
+      "answers": [
+        {
+          "id": "q8a",
+          "text": "The reliable favorite. No surprises tonight.",
+          "tags": [
+            "steady_companion",
+            "cozy_giant",
+            "sun_worshipper"
+          ]
+        },
+        {
+          "id": "q8b",
+          "text": "Somewhere new. Try something different.",
+          "tags": [
+            "curious_explorer",
+            "adaptive_soul",
+            "joyful_optimist"
+          ]
+        },
+        {
+          "id": "q8c",
+          "text": "Ask everyone what they're craving first, then decide.",
+          "tags": [
+            "soft_hearted_charmer",
+            "chatty_charmer",
+            "loyal_guardian"
+          ]
+        },
+        {
+          "id": "q8d",
+          "text": "Throw out two options and let the group break the tie.",
+          "tags": [
+            "crown_bearer",
+            "trickster",
+            "free_spirit",
+            "quirky_individualist"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "title": "The hard day",
+      "setup": "It's been a rough one. You're home. What helps?",
+      "answers": [
+        {
+          "id": "q9a",
+          "text": "A walk outside. Sometimes you need to physically leave the day behind.",
+          "tags": [
+            "curious_explorer",
+            "sprint_star",
+            "free_spirit"
+          ]
+        },
+        {
+          "id": "q9b",
+          "text": "The right person on the phone for an hour.",
+          "tags": [
+            "chatty_charmer",
+            "soft_hearted_charmer",
+            "romantic"
+          ]
+        },
+        {
+          "id": "q9c",
+          "text": "Comfort food, your softest clothes, a show you've already seen.",
+          "tags": [
+            "sun_worshipper",
+            "cozy_giant",
+            "soft_hearted_charmer"
+          ]
+        },
+        {
+          "id": "q9d",
+          "text": "Quiet. No talking. Maybe a long bath. Definitely no plans.",
+          "tags": [
+            "hidden_one",
+            "quiet_mystic",
+            "old_soul",
+            "night_owl"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "title": "The public praise",
+      "setup": "A boss or teacher singles you out for praise in front of others.",
+      "answers": [
+        {
+          "id": "q10a",
+          "text": "You feel warm and you let it show. You earned it.",
+          "tags": [
+            "crown_bearer",
+            "joyful_optimist",
+            "sun_worshipper"
+          ]
+        },
+        {
+          "id": "q10b",
+          "text": "You deflect a little, mention the team, change the subject.",
+          "tags": [
+            "steady_companion",
+            "loyal_guardian",
+            "cozy_giant",
+            "old_soul"
+          ]
+        },
+        {
+          "id": "q10c",
+          "text": "You smile, say thank you, quietly enjoy it without making a thing of it.",
+          "tags": [
+            "quiet_mystic",
+            "old_soul",
+            "crown_bearer"
+          ]
+        },
+        {
+          "id": "q10d",
+          "text": "You're uncomfortable and you crack a joke to break the tension.",
+          "tags": [
+            "trickster",
+            "hidden_one",
+            "quirky_individualist",
+            "soft_hearted_charmer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "title": "The new person",
+      "setup": "You're somewhere you don't really know anyone. A friendly person introduces themselves.",
+      "answers": [
+        {
+          "id": "q11a",
+          "text": "You love it. Meeting a new person is the best part of your day.",
+          "tags": [
+            "chatty_charmer",
+            "joyful_optimist",
+            "sun_worshipper",
+            "sprint_star"
+          ]
+        },
+        {
+          "id": "q11b",
+          "text": "You chat warmly back. You're glad they came over.",
+          "tags": [
+            "soft_hearted_charmer",
+            "steady_companion",
+            "cozy_giant"
+          ]
+        },
+        {
+          "id": "q11c",
+          "text": "You hold up your end of the conversation, but you're ready for it to end.",
+          "tags": [
+            "quiet_mystic",
+            "loyal_guardian",
+            "hidden_one"
+          ]
+        },
+        {
+          "id": "q11d",
+          "text": "You're polite but quiet. You'd rather watch the room than talk to it.",
+          "tags": [
+            "hidden_one",
+            "dreamer",
+            "quirky_individualist"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "title": "The thing you make",
+      "setup": "When you've got time to make something. What feels best?",
+      "answers": [
+        {
+          "id": "q12a",
+          "text": "Doing it alone, taking your time, working until it feels right.",
+          "tags": [
+            "old_soul",
+            "dreamer",
+            "quiet_mystic",
+            "hidden_one",
+            "quirky_individualist"
+          ]
+        },
+        {
+          "id": "q12b",
+          "text": "Doing it with someone you love. Making is half the point; company is the other half.",
+          "tags": [
+            "soft_hearted_charmer",
+            "romantic",
+            "chatty_charmer"
+          ]
+        },
+        {
+          "id": "q12c",
+          "text": "Trying something brand new you've never done before.",
+          "tags": [
+            "curious_explorer",
+            "joyful_optimist",
+            "adaptive_soul"
+          ]
+        },
+        {
+          "id": "q12d",
+          "text": "Coming back to something you're already good at and getting even better.",
+          "tags": [
+            "crown_bearer",
+            "steady_companion",
+            "loyal_guardian"
+          ]
+        },
+        {
+          "id": "q12e",
+          "text": "Honestly, you'd rather watch someone else make something. Not your scene.",
+          "tags": [
+            "sun_worshipper",
+            "cozy_giant",
+            "free_spirit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "title": "The dog on the walk",
+      "setup": "A dog you don't know runs up to you, tail going.",
+      "answers": [
+        {
+          "id": "q13a",
+          "text": "You're already crouching. New friend acquired.",
+          "tags": [
+            "joyful_optimist",
+            "soft_hearted_charmer",
+            "romantic",
+            "curious_explorer"
+          ]
+        },
+        {
+          "id": "q13b",
+          "text": "You smile and let it sniff your hand. Friendly but reserved.",
+          "tags": [
+            "steady_companion",
+            "cozy_giant",
+            "quiet_mystic"
+          ]
+        },
+        {
+          "id": "q13c",
+          "text": "You step back a little. Unannounced energy is a lot.",
+          "tags": [
+            "hidden_one",
+            "quirky_individualist",
+            "loyal_guardian"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "title": "The surprise",
+      "setup": "A friend keeps a surprise from you for a week and finally tells you. It's a good one.",
+      "answers": [
+        {
+          "id": "q14a",
+          "text": "You're delighted. The week of secrecy was part of the gift.",
+          "tags": [
+            "joyful_optimist",
+            "sun_worshipper",
+            "curious_explorer",
+            "sprint_star",
+            "trickster"
+          ]
+        },
+        {
+          "id": "q14b",
+          "text": "You're delighted but a little bothered they didn't tell you sooner.",
+          "tags": [
+            "loyal_guardian",
+            "romantic",
+            "soft_hearted_charmer"
+          ]
+        },
+        {
+          "id": "q14c",
+          "text": "You laugh and tell them next time, spoil it. Surprises stress you out.",
+          "tags": [
+            "old_soul",
+            "steady_companion",
+            "quiet_mystic",
+            "quirky_individualist"
+          ]
+        },
+        {
+          "id": "q14d",
+          "text": "You're touched. You'd never have done that for someone, but you love that they did it for you.",
+          "tags": [
+            "romantic",
+            "cozy_giant",
+            "free_spirit",
+            "dreamer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "title": "The way you learn",
+      "setup": "You're trying to learn something new. What works best?",
+      "answers": [
+        {
+          "id": "q15a",
+          "text": "Watching someone else do it first, then trying.",
+          "tags": [
+            "steady_companion",
+            "old_soul",
+            "quiet_mystic"
+          ]
+        },
+        {
+          "id": "q15b",
+          "text": "Reading about it carefully, then trying.",
+          "tags": [
+            "dreamer",
+            "old_soul",
+            "crown_bearer"
+          ]
+        },
+        {
+          "id": "q15c",
+          "text": "Diving in, making a mess, figuring it out by failing a bunch.",
+          "tags": [
+            "sprint_star",
+            "trickster",
+            "curious_explorer",
+            "adaptive_soul",
+            "quirky_individualist"
+          ]
+        },
+        {
+          "id": "q15d",
+          "text": "Having a friend or teacher walk you through it step by step.",
+          "tags": [
+            "soft_hearted_charmer",
+            "cozy_giant",
+            "steady_companion",
+            "loyal_guardian"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "title": "The sound",
+      "setup": "You can have one of these playing while you do your favorite thing.",
+      "answers": [
+        {
+          "id": "q16a",
+          "text": "Music that matches the mood you're already in.",
+          "tags": [
+            "romantic",
+            "dreamer",
+            "sun_worshipper",
+            "soft_hearted_charmer"
+          ]
+        },
+        {
+          "id": "q16b",
+          "text": "A book or podcast someone is reading to you.",
+          "tags": [
+            "cozy_giant",
+            "old_soul",
+            "sun_worshipper"
+          ]
+        },
+        {
+          "id": "q16c",
+          "text": "Silence. Truly nothing.",
+          "tags": [
+            "hidden_one",
+            "quiet_mystic",
+            "crown_bearer",
+            "night_owl"
+          ]
+        },
+        {
+          "id": "q16d",
+          "text": "The sounds of outside. Wind, birds, rain, faraway voices.",
+          "tags": [
+            "dreamer",
+            "free_spirit",
+            "adaptive_soul",
+            "quirky_individualist",
+            "night_owl"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "title": "The morning",
+      "setup": "First thing in the morning, before anyone has asked anything of you.",
+      "answers": [
+        {
+          "id": "q17a",
+          "text": "You're already going. The day is light and you want to be in it.",
+          "tags": [
+            "sprint_star",
+            "joyful_optimist",
+            "curious_explorer"
+          ]
+        },
+        {
+          "id": "q17b",
+          "text": "You take your time. Breakfast slow, no rush.",
+          "tags": [
+            "sun_worshipper",
+            "cozy_giant",
+            "steady_companion",
+            "old_soul"
+          ]
+        },
+        {
+          "id": "q17c",
+          "text": "You'd sleep in if anyone let you. Mornings are not your strongest hour.",
+          "tags": [
+            "night_owl",
+            "dreamer",
+            "free_spirit",
+            "quirky_individualist"
+          ]
+        },
+        {
+          "id": "q17d",
+          "text": "You like a quiet stretch alone before the day really begins.",
+          "tags": [
+            "hidden_one",
+            "quiet_mystic",
+            "old_soul"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "title": "The afternoon outside",
+      "setup": "You have a free afternoon and the weather is good. What pulls you?",
+      "answers": [
+        {
+          "id": "q18a",
+          "text": "A long walk somewhere you haven't been before.",
+          "tags": [
+            "curious_explorer",
+            "free_spirit",
+            "sprint_star"
+          ]
+        },
+        {
+          "id": "q18b",
+          "text": "A blanket and a book under a tree.",
+          "tags": [
+            "sun_worshipper",
+            "dreamer",
+            "cozy_giant"
+          ]
+        },
+        {
+          "id": "q18c",
+          "text": "Building, planting, or fixing something with your hands.",
+          "tags": [
+            "loyal_guardian",
+            "steady_companion",
+            "adaptive_soul",
+            "crown_bearer"
+          ]
+        },
+        {
+          "id": "q18d",
+          "text": "Watching for animals, listening to the sounds around you, paying attention.",
+          "tags": [
+            "quiet_mystic",
+            "dreamer",
+            "hidden_one",
+            "old_soul"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "title": "The hard problem",
+      "setup": "Something tricky has come up. A puzzle, a problem, a thing that needs figuring out.",
+      "answers": [
+        {
+          "id": "q19a",
+          "text": "You go at it directly. Pick at it until it gives.",
+          "tags": [
+            "sprint_star",
+            "crown_bearer",
+            "loyal_guardian"
+          ]
+        },
+        {
+          "id": "q19b",
+          "text": "You step away. The answer usually comes when you're not looking.",
+          "tags": [
+            "dreamer",
+            "old_soul",
+            "free_spirit",
+            "quirky_individualist"
+          ]
+        },
+        {
+          "id": "q19c",
+          "text": "You ask someone you trust to help you think it through.",
+          "tags": [
+            "soft_hearted_charmer",
+            "chatty_charmer",
+            "steady_companion"
+          ]
+        },
+        {
+          "id": "q19d",
+          "text": "You make a list. Break it down. One piece at a time.",
+          "tags": [
+            "crown_bearer",
+            "steady_companion",
+            "old_soul",
+            "loyal_guardian"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "title": "The kind word",
+      "setup": "A friend is having a really hard day. You want to help.",
+      "answers": [
+        {
+          "id": "q20a",
+          "text": "You show up. Bring food. Sit with them. Don't make them talk.",
+          "tags": [
+            "cozy_giant",
+            "loyal_guardian",
+            "steady_companion"
+          ]
+        },
+        {
+          "id": "q20b",
+          "text": "You let them talk as long as they need. Listen close.",
+          "tags": [
+            "soft_hearted_charmer",
+            "romantic",
+            "old_soul"
+          ]
+        },
+        {
+          "id": "q20c",
+          "text": "You try to make them laugh. Sometimes that's the medicine.",
+          "tags": [
+            "trickster",
+            "joyful_optimist",
+            "chatty_charmer"
+          ]
+        },
+        {
+          "id": "q20d",
+          "text": "You give them space and check in tomorrow. Some people need quiet.",
+          "tags": [
+            "quiet_mystic",
+            "hidden_one",
+            "free_spirit",
+            "dreamer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "title": "The favorite season",
+      "setup": "Which one is genuinely yours?",
+      "answers": [
+        {
+          "id": "q21a",
+          "text": "Summer. Light and warmth and the long evenings.",
+          "tags": [
+            "sun_worshipper",
+            "joyful_optimist",
+            "sprint_star"
+          ]
+        },
+        {
+          "id": "q21b",
+          "text": "Fall. The leaves and the crisp air and the way everything turns.",
+          "tags": [
+            "dreamer",
+            "romantic",
+            "old_soul"
+          ]
+        },
+        {
+          "id": "q21c",
+          "text": "Winter. Snow, quiet, candles, deep cold.",
+          "tags": [
+            "hidden_one",
+            "night_owl",
+            "quiet_mystic"
+          ]
+        },
+        {
+          "id": "q21d",
+          "text": "Spring. New green, new everything, the world coming back.",
+          "tags": [
+            "joyful_optimist",
+            "soft_hearted_charmer",
+            "adaptive_soul"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "title": "The best kind of friend",
+      "setup": "The friendship that feels best to you is the one where…",
+      "answers": [
+        {
+          "id": "q22a",
+          "text": "You can be quiet together for an hour and it doesn't feel weird.",
+          "tags": [
+            "hidden_one",
+            "quiet_mystic",
+            "old_soul",
+            "loyal_guardian",
+            "night_owl"
+          ]
+        },
+        {
+          "id": "q22b",
+          "text": "You laugh a lot. Even when nothing's particularly funny.",
+          "tags": [
+            "trickster",
+            "joyful_optimist",
+            "chatty_charmer",
+            "quirky_individualist"
+          ]
+        },
+        {
+          "id": "q22c",
+          "text": "You go on adventures together. Plans, trips, surprises.",
+          "tags": [
+            "curious_explorer",
+            "sprint_star",
+            "adaptive_soul",
+            "free_spirit",
+            "trickster"
+          ]
+        },
+        {
+          "id": "q22d",
+          "text": "You talk about the real stuff. The big questions, the hard ones.",
+          "tags": [
+            "dreamer",
+            "romantic",
+            "soft_hearted_charmer",
+            "old_soul"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "title": "The waiting gap",
+      "setup": "You're waiting for something to start. A 15-minute gap with nothing to do.",
+      "answers": [
+        {
+          "id": "q23a",
+          "text": "Phone out, immediately. Catching up on something.",
+          "tags": [
+            "chatty_charmer",
+            "adaptive_soul",
+            "joyful_optimist"
+          ]
+        },
+        {
+          "id": "q23b",
+          "text": "People-watching. Plenty to notice if you look.",
+          "tags": [
+            "quiet_mystic",
+            "old_soul",
+            "curious_explorer",
+            "quirky_individualist"
+          ]
+        },
+        {
+          "id": "q23c",
+          "text": "Quiet thinking. You're glad for the pause.",
+          "tags": [
+            "hidden_one",
+            "old_soul",
+            "crown_bearer",
+            "quiet_mystic"
+          ]
+        },
+        {
+          "id": "q23d",
+          "text": "Up and moving. A walk anywhere not still.",
+          "tags": [
+            "sprint_star",
+            "free_spirit",
+            "curious_explorer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "title": "The food moment",
+      "setup": "The meal you'd choose if you could have any meal in the world tonight.",
+      "answers": [
+        {
+          "id": "q24a",
+          "text": "Comfort food. The exact thing you grew up with, made the right way.",
+          "tags": [
+            "cozy_giant",
+            "steady_companion",
+            "soft_hearted_charmer",
+            "sun_worshipper"
+          ]
+        },
+        {
+          "id": "q24b",
+          "text": "Something brand new. A cuisine you've never tried.",
+          "tags": [
+            "curious_explorer",
+            "adaptive_soul",
+            "joyful_optimist"
+          ]
+        },
+        {
+          "id": "q24c",
+          "text": "A long meal with a lot of small dishes and a lot of people you love.",
+          "tags": [
+            "chatty_charmer",
+            "romantic",
+            "sun_worshipper"
+          ]
+        },
+        {
+          "id": "q24d",
+          "text": "Something simple and very, very good. One thing, done perfectly.",
+          "tags": [
+            "crown_bearer",
+            "quiet_mystic",
+            "old_soul",
+            "quirky_individualist"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "title": "The thing you'd hate to lose",
+      "setup": "If you could keep only some of these, which would feel the worst to give up?",
+      "answers": [
+        {
+          "id": "q25a",
+          "text": "Long talks with the people you love.",
+          "tags": [
+            "chatty_charmer",
+            "romantic",
+            "soft_hearted_charmer",
+            "loyal_guardian"
+          ]
+        },
+        {
+          "id": "q25b",
+          "text": "Quiet time alone.",
+          "tags": [
+            "hidden_one",
+            "quiet_mystic",
+            "dreamer",
+            "old_soul"
+          ]
+        },
+        {
+          "id": "q25c",
+          "text": "Music.",
+          "tags": [
+            "dreamer",
+            "romantic",
+            "sun_worshipper",
+            "night_owl"
+          ]
+        },
+        {
+          "id": "q25d",
+          "text": "Travel, new places, leaving the familiar.",
+          "tags": [
+            "curious_explorer",
+            "free_spirit",
+            "adaptive_soul"
+          ]
+        },
+        {
+          "id": "q25e",
+          "text": "Anything sweet. Desserts, baked things, candy.",
+          "tags": [
+            "sun_worshipper",
+            "joyful_optimist",
+            "cozy_giant"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "title": "The song from before",
+      "setup": "You hear a song you used to love come on out of nowhere.",
+      "answers": [
+        {
+          "id": "q26a",
+          "text": "You sing along, even if other people are around.",
+          "tags": [
+            "chatty_charmer",
+            "joyful_optimist",
+            "sprint_star",
+            "sun_worshipper"
+          ]
+        },
+        {
+          "id": "q26b",
+          "text": "You stop what you're doing and just listen.",
+          "tags": [
+            "dreamer",
+            "quiet_mystic",
+            "old_soul"
+          ]
+        },
+        {
+          "id": "q26c",
+          "text": "You feel a wave of memory before you can name it.",
+          "tags": [
+            "romantic",
+            "soft_hearted_charmer",
+            "dreamer"
+          ]
+        },
+        {
+          "id": "q26d",
+          "text": "You enjoy it for a moment, then put on something else.",
+          "tags": [
+            "free_spirit",
+            "steady_companion",
+            "adaptive_soul",
+            "trickster"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "title": "The way you dress",
+      "setup": "What you put on in the morning, in general, is…",
+      "answers": [
+        {
+          "id": "q27a",
+          "text": "Whatever you've been comfortable in for years. You know what works.",
+          "tags": [
+            "steady_companion",
+            "cozy_giant",
+            "old_soul",
+            "crown_bearer",
+            "loyal_guardian"
+          ]
+        },
+        {
+          "id": "q27b",
+          "text": "Whatever you're in the mood for that day. It changes a lot.",
+          "tags": [
+            "adaptive_soul",
+            "free_spirit",
+            "joyful_optimist"
+          ]
+        },
+        {
+          "id": "q27c",
+          "text": "The same kinds of things as the people around you. You don't want to stand out.",
+          "tags": [
+            "hidden_one",
+            "soft_hearted_charmer",
+            "steady_companion"
+          ]
+        },
+        {
+          "id": "q27d",
+          "text": "Something you picked specifically because no one else would have picked it.",
+          "tags": [
+            "quirky_individualist",
+            "trickster",
+            "night_owl",
+            "dreamer"
+          ]
+        }
+      ]
+    }
+  ]
+}
