@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "data": "node scripts/build-data.mjs",
+    "guide": "node scripts/gen-content-guide.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

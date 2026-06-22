@@ -13,6 +13,7 @@ See `my_inner_cat_build_spec.md` for the original design; this file is the curre
 
 - `npm run dev` — local dev server
 - `npm run data` — regenerate `data/*.json` + optimized images from the source markdown
+- `npm run guide` — regenerate `CONTENT_GUIDE.md` (self-contained brief for authoring content)
 - `npm run build` — production build (prerenders results, gallery, OG + share cards)
 - `npm run test` — Vitest unit tests for the matching engine
 - `npm run start` — serve the production build
