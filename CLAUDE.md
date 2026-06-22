@@ -83,5 +83,8 @@ repo root so it resolves node_modules.
 
 ## Open / next
 
+- **`ROADMAP.md`** — parked enhancement plan (collection milestones, top-3 archetypes,
+  cat encyclopedia pages, daily cat, compare-with-a-friend, live rarity stats). Pick up
+  after the planned content expansion (more archetypes/cats/questions).
 - Tune archetype tag distribution after ~50–100 real plays (Vercel Analytics → edit
   `cat_quiz_scoring_tags.md` → `npm run data`).
